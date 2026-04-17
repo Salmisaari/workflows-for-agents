@@ -97,7 +97,7 @@ The counter-intuitive move: many "imperfect" patterns belong in **Keep**, not So
 
 This collapses the "teach the agent to sound like me" problem into the same persona-as-data architecture — no special runtime needed.
 
-A concrete skill-file implementation is at `drafts/voice-dna.md`.
+A concrete skill-file implementation is at `examples/voice-dna.md`.
 
 ## Subagent persona policy
 

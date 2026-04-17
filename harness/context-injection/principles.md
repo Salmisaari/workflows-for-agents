@@ -8,11 +8,11 @@ What the harness puts in front of the model on each turn.
 - **Skills** — skill metadata (names + descriptions of available skills)
 - **Conversation** — message history (or its compacted summary)
 
-## Carries forward from existing SKILL.md
+## Workflow-level vs harness-level framing
 
-Existing skill says: "Each step gets exactly the context it needs. Not the full history — a summary of what came before, plus the raw input it must act on."
+A workflow-level rule: each step gets exactly the context it needs. Not the full history — a summary of what came before, plus the raw input it must act on.
 
-That's a workflow-level rule. The harness-level version is: **every injection is a deliberate budget choice.** Stale context is worse than no context.
+The harness-level version: **every injection is a deliberate budget choice.** Stale context is worse than no context.
 
 ## Pre-hydration
 

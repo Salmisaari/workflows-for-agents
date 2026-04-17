@@ -8,8 +8,6 @@ Working notes for understanding how to build agentic workflows. The output of th
 
 Goal: synthesize the best thinking from the public community on how agents should be built, then design the right shape of skills to make this knowledge actionable.
 
-The current `workflows` skill at `~/.claude/skills/workflows/SKILL.md` is the starting point. It conflates several concerns and uses overly rigid interaction gating. The rewrite (or split into multiple skills) will be informed by what's captured here.
-
 ## Prerequisites
 
 These notes are harness- and model-agnostic — use your preferred LLM with tool use and whatever harness works for you (Claude Code, openclaw/nanoclaw, hermes-agent, or your own).
@@ -41,8 +39,10 @@ workflow_skill/
 │   ├── control/principles.md    compaction, orchestration, ralph loops
 │   ├── observe-verify/principles.md
 │   └── persist/principles.md    files as the cleanest long-term memory
-└── resolvers/
-    └── principles.md            routing tables for context, just-in-time injection
+├── resolvers/
+│   └── principles.md            routing tables for context, just-in-time injection
+└── examples/
+    └── voice-dna.md             worked example of a concrete skill
 ```
 
 ## Approach

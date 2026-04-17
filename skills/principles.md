@@ -25,7 +25,7 @@ This is **software design with markdown as the programming language and human ju
 
 ## The "no one-off work" rule
 
-The rule, worth keeping in any rewritten skill:
+The rule:
 
 > "You are not allowed to do one-off work. If I ask you to do something and it's the kind of thing that will need to happen again, you must: do it manually the first time on 3 to 10 items. Show me the output. If I approve, codify it into a skill file. If it should run automatically, put it on a cron.
 >
@@ -98,7 +98,7 @@ A single agent system can use all three. The deciding question:
 - *Should this always be available as background guidance?* → declarative reference
 - *Does this require code/dependencies to be installed?* → branch + setup
 
-The current `workflows` skill treats skills as one shape (procedural). The rewrite should at minimum acknowledge the spectrum so users pick the right encoding.
+Treating all skills as one shape (usually procedural) collapses the spectrum. Naming the three encodings lets the author pick the right one per capability.
 
 ## Skill metadata as resolver bait
 
@@ -123,7 +123,7 @@ Self-modification is powerful (the "improvement loop" — survey → diarize med
 
 Practical guidance: self-modifying skills need versioning + a human review checkpoint before new rules go live, or they need a clear scope boundary (e.g., only the `# Learned Rules` section is auto-edited).
 
-## Skill design checklist (provisional)
+## Skill design checklist
 
 For each skill, decide:
 1. **Single sentence of purpose.** If you need two sentences, it's two skills.

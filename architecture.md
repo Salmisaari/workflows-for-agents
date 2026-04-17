@@ -64,15 +64,15 @@ When you do this:
 - The deterministic layer stays perfectly reliable (no regression risk from model changes).
 - Skills become **permanent upgrades**.
 
-## Implications for the rewritten workflow skill
+## Workflow design is three-dimensional
 
-The current SKILL.md treats workflow as a one-dimensional sequence (steps with handoffs). This architecture says workflow is actually three-dimensional:
+A naive workflow treatment is one-dimensional (steps with handoffs). This architecture says workflow is actually three-dimensional:
 
 1. **Where does this step live?** (latent / deterministic / harness)
 2. **Is this work codifiable as a reusable skill?** (one-off vs codify-and-cron)
 3. **What context does this step need at this moment?** (resolver question)
 
-The rewrite should make these three questions explicit in the design process.
+Any process-level design skill should make these three questions explicit.
 
 ## Pattern catalog
 
@@ -175,7 +175,7 @@ Implications:
 - **The UX layer pays.** Any compression / trimming / "let the agent fetch" choice is trading tokens for latency/cost. Name the trade each time, don't optimize it invisibly.
 - **Evaluate at production-realistic context sizes.** A workflow that works in a clean 2k-token eval can collapse at 40k tokens in production. Test under the conditions that will actually run.
 
-This is why the `workflow-ux` skill matters: responsiveness and accuracy pull in opposite directions on the token axis, and the right answer is use-case-specific.
+This is why workflow UX is a design axis of its own: responsiveness and accuracy pull in opposite directions on the token axis, and the right answer is use-case-specific.
 
 ## Constraints principle (mutable vs immutable boundary)
 

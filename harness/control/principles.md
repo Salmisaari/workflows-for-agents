@@ -54,9 +54,9 @@ Two modes, one discipline:
 
 Most expensive agent failures can be prevented by one of these two. Skipping both is how you get confidently-wrong output delivered without friction.
 
-## Connection to the existing skill
+## Positioning sequential workflow
 
-The current `workflows` skill is essentially a **control pattern**: sequential steps with quality checks between them. That's one shape among many. The rewrite should:
+A sequential workflow (ordered steps with quality checks between them) is one **control pattern** among many. In workflow-skill design:
 - Position sequential workflow as one option, not the default.
 - Surface ralph loops, parallel orchestration, and dispatch as siblings.
 - Note that control choice is downstream of memory/context choices — you can't ralph-loop if context blows up after 3 iterations.

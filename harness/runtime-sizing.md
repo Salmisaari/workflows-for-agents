@@ -49,11 +49,11 @@ The principle: **own your harness so you own your memory.** A lean runtime + con
 
 These framings aren't in conflict — lean runtime + content-rich skills is what an open harness looks like in practice.
 
-## Implications for the existing SKILL.md
+## Applying this to workflow-skill design
 
-The current `workflows` skill leans toward runtime-bloated thinking — it tries to encode every consideration in one place (preferences, workflow design, layers before generation, tool design, step contracts, review stages, interaction protocol). That's too much runtime, not enough skill.
+A process-heavy workflow skill that tries to encode every consideration in one place (preferences, design rules, layers before generation, tool design, step contracts, review stages, interaction protocol) leans toward runtime-bloated thinking. That's too much runtime, not enough skill.
 
-A leaner version would:
-- Be much shorter (the discipline is the value, not the comprehensiveness).
-- Push details into linked sub-skills or referenced docs (the "resolver" pattern — see `../resolvers/principles.md`).
-- Trust the model to apply judgment instead of forcing rigid stage gates.
+A leaner version:
+- Much shorter (the discipline is the value, not the comprehensiveness).
+- Pushes details into linked sub-skills or referenced docs (the "resolver" pattern — see `../resolvers/principles.md`).
+- Trusts the model to apply judgment instead of forcing rigid stage gates.

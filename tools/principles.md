@@ -9,9 +9,9 @@ How the model's decisions become side effects in the world.
 
 Results flow back into context as part of the next turn's injection.
 
-## What carries forward from existing SKILL.md
+## Tool description checklist
 
-Tool design checklist already captured (WHAT / WHEN / INPUTS / RETURNS / MASKING). Worth keeping intact:
+Five dimensions every tool description should cover:
 - WHAT — specific, no vague "helps with"
 - WHEN — triggers and contexts, including indirect signals
 - INPUTS — types, constraints, sensible defaults

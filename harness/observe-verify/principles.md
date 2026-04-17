@@ -14,7 +14,7 @@ These feed back into context so the next turn can react.
 
 Action is "do the thing." Observe-verify is "confirm the thing happened correctly." Conflating them is a common workflow bug — the agent moves on before checking, accumulates errors silently.
 
-The existing SKILL.md already says "Separate steps that generate from steps that evaluate — a step should not judge its own output." That's the workflow-level expression of this principle.
+The workflow-level expression of this principle: **separate steps that generate from steps that evaluate — a step should not judge its own output.**
 
 ## Patterns
 

@@ -48,8 +48,8 @@ The model sits in the middle. Five components surround it:
 | **Observe & Verify** | Closing the loop on tool outcomes | screenshots, test results, log scraping |
 | **Persist** | Durable state outside the model's context | filesystem writes, git commits, progress / scratchpad files |
 
-## Why this matters for skill design
+## Why harness anatomy is the foundation
 
-The current `workflows` SKILL.md treats "the layers before generation" (harness section) as *one of several* design considerations. A more accurate framing inverts that: **the harness is the primary thing**; workflow steps are one specific harness pattern (Control + Context Injection on a sequential plan).
+Treating "the layers before generation" (the harness section) as *one of several* design considerations inverts the real relationship. **The harness is the primary thing**; workflow steps are one specific harness pattern (Control + Context Injection on a sequential plan).
 
-Implication for the rewrite: leading with harness anatomy gives the skill a stable spine. Workflows, agents, ralph loops, deep agents are then **harness shapes** — not separate categories.
+Leading with harness anatomy gives a workflow skill a stable spine. Workflows, agents, ralph loops, deep agents are then **harness shapes** — not separate categories.

@@ -4,7 +4,7 @@ Start here. Map of the repo and rules for where things go.
 
 ## Purpose
 
-Theory for designing agentic workflows. Will be distilled into 6 skill files (`design-workflow`, `memory-system`, `scenarios`, `constraints`, `workflow-review`, `workflow-ux`) that replace `~/.claude/skills/workflows/SKILL.md`.
+Theory for designing agentic workflows. Example skill files in `examples/` show how the theory applies in practice.
 
 ## Layout
 

@@ -32,10 +32,10 @@ CLAUDE.md / AGENTS.md (always loaded, ~200 lines)
 
 The pointers are the routing table. The model reads them on every turn (cheap), but only loads the heavy docs when the trigger fires.
 
-## Why this matters for the workflow skill
+## Applying this to workflow-skill design
 
-The current `workflows` SKILL.md is itself ~200 lines and fairly content-dense. It probably *is* the right size for an always-on resolver — but it tries to do too much (preferences + design rules + review stages + interaction protocol). The rewrite could:
+A workflow-design SKILL.md at ~200 lines is about the right size for an always-on resolver — but past that, it usually tries to do too much (preferences + design rules + review stages + interaction protocol). Keep a skill file lean by:
 
-- Keep the SKILL.md short and trigger-rich (good descriptions, clear "when to use").
-- Move detailed material into linked documents (e.g., `harness.md`, `skills.md`, `architecture.md`) loaded only when relevant.
-- Use the resolver pattern *internally*: the skill body itself dispatches to sub-procedures based on the kind of workflow being designed.
+- Keeping the SKILL.md short and trigger-rich (good descriptions, clear "when to use").
+- Moving detailed material into linked documents (e.g., `harness.md`, `skills.md`, `architecture.md`) loaded only when relevant.
+- Using the resolver pattern *internally*: the skill body itself dispatches to sub-procedures based on the kind of workflow being designed.
