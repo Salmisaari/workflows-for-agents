@@ -49,4 +49,4 @@ Why this beats letting the model fetch:
 
 The cost: the runtime must know *which entity to hydrate* before the model runs. Use a cheap extraction step (regex, classifier, or small-model call) to identify the entity, then hydrate, then call the main model.
 
-This is one concrete shape of the **resolver** idea (see `../resolvers/notes.md`): the harness decides what context the model needs and front-loads it.
+This is one concrete shape of the **resolver** idea (see `../../resolvers/notes.md`): the harness decides what context the model needs and front-loads it.

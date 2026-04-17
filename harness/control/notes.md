@@ -34,7 +34,7 @@ This is also where **action durability** is enforced (see `../persist/notes.md` 
 
 ### Decision-point routing (proceed / stop)
 
-Catches ambiguity at the *choice*, earlier in the loop — during planning or design, before any action has been taken. This is the discipline that addresses the empirically #1 expensive failure mode: the agent confidently going the wrong way at an ambiguous decision and burning ten minutes on the wrong thing (see `../architecture.md` Stop-at-ambiguity principle).
+Catches ambiguity at the *choice*, earlier in the loop — during planning or design, before any action has been taken. This is the discipline that addresses the empirically #1 expensive failure mode: the agent confidently going the wrong way at an ambiguous decision and burning ten minutes on the wrong thing (see `../../architecture.md` Stop-at-ambiguity principle).
 
 ```
 At each planning / design decision:

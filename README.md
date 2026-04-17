@@ -28,11 +28,11 @@ workflow_skill/
 │   ├── anatomy.md          5-component model: context-injection, control, tools, observe, persist
 │   ├── openness-spectrum.md  control surface from open → managed
 │   ├── runtime-sizing.md   lean runtime + content-rich skills
-│   └── runtime-patterns.md   persistent vs container, multi-channel, IPC, compression, providers
-├── context-injection/notes.md
-├── control/notes.md        compaction, orchestration, ralph loops
-├── observe-verify/notes.md
-├── persist/notes.md        files as the cleanest long-term memory
+│   ├── runtime-patterns.md   persistent vs container, multi-channel, IPC, compression, providers
+│   ├── context-injection/notes.md
+│   ├── control/notes.md    compaction, orchestration, ralph loops
+│   ├── observe-verify/notes.md
+│   └── persist/notes.md    files as the cleanest long-term memory
 └── resolvers/
     └── notes.md            routing tables for context, just-in-time injection
 ```
@@ -92,8 +92,8 @@ An interpretation of what's most relevant right now for designing agentic workfl
 - [x] Token-budget reality principle captured (~80% of variance from context quality)
 - [x] Skill set agreed: 6 topic-named skills (design-workflow, memory-system, scenarios, constraints, workflow-review, workflow-ux)
 - [x] Design DNA (four principles) + Stop-at-ambiguity principle captured in architecture.md
-- [x] Decision-point branching captured in control/notes.md (companion to action-routing)
-- [x] Five proactive validation dimensions captured in observe-verify/notes.md
+- [x] Decision-point branching captured in harness/control/notes.md (companion to action-routing)
+- [x] Five proactive validation dimensions captured in harness/observe-verify/notes.md
 - [x] Theory pass complete — ready for skill drafting
 - [ ] Draft the 6 skill files
 - [ ] Replace / refactor existing `workflows` SKILL.md
